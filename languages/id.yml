@@ -1,0 +1,37 @@
+index:
+    home: 'Beranda'
+    search: 'Cari'
+    archive: 'Arsip'
+    category: 'Kategori'
+    uncategorized: 'Tanpa Kategori'
+    tag: 'tag'
+nav:
+    next: 'Berikutnya'
+    prev: 'Sebelumnya'
+    older: 'Lebih lama'
+    newer: 'Lebih baru'
+widget:
+    recents: 'Artikel Terbaru'
+    archives: 'Arsip'
+    categories: 'Kategori'
+    links: 'Tautan'
+    tags: 'tag'
+    tag_cloud: 'Tag Artikel'
+article:
+    more: 'Selengkapnya'
+    comments: 'Komentar'
+    share: 'Bagikan'
+    catalogue: 'Katalog'
+profile:
+    follow: 'IKUTI'
+    post: 'pos'
+    tag: 'tag'
+    posts: 'pos'
+    tags: 'tag'
+insight:
+    hint: 'Tulis Sesuatu..'
+    posts: 'Pos'
+    pages: 'Halaman'
+    categories: 'Kategori'
+    tags: 'Tag'
+    untitled: 'Tanpa Judul'
