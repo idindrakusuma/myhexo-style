@@ -1,7 +1,17 @@
 #header
-    @extend $block
+    @extend $block-header
     background: #3498db
-    position: relative
+    position: fixed
+    width: 100%
+    z-index: 1000
+    @media mq-normal
+        margin-top: -5em
+    @media mq-tablet
+        margin-top: -6em
+    @media mq-mobile
+        margin-top: -6em
+    @media mq-mini
+            margin-top: -6em
     a, a:visited
         white-space: nowrap
         transition: 0.2s ease

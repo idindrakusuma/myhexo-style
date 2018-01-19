@@ -7,6 +7,10 @@
 ### Demo
 :computer: visit https://indrakusuma.web.id for live demo.
 
+## Change Log
+- Add Fixed Navbar menu
+- Fixer z-index for Search Box Menu in Mobile menu
+
 ---
 ### [View Documentation](https://github.com/ppoffice/hexo-theme-icarus/wiki)
 :star: It is strongly recommended that you read the docs before using Icarus.

@@ -1,6 +1,6 @@
 index:
     home: 'Beranda'
-    search: 'Cari'
+    search: 'Cari Sesuatu..'
     archive: 'Arsip'
     category: 'Kategori'
     uncategorized: 'Tanpa Kategori'
@@ -8,8 +8,8 @@ index:
 nav:
     next: 'Berikutnya'
     prev: 'Sebelumnya'
-    older: 'Lebih lama'
-    newer: 'Lebih baru'
+    older: 'Artikel Sebelumnya'
+    newer: 'Artikel Berikutnya'
 widget:
     recents: 'Artikel Terbaru'
     archives: 'Arsip'

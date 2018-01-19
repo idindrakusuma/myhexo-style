@@ -29,12 +29,12 @@ a
 
 code
     margin: 0 2px
-    color: #e96900
+    color: #455A64
     padding: 3px 5px
     font-size: 0.9em
     border-radius: 2px
     font-family: font-mono
-    background-color: #f8f8f8
+    background-color: #C5CAE9
 
 .outer
     clearfix()
@@ -64,7 +64,14 @@ code
     position: relative
     & > .outer
         margin-bottom: 30px
-
+        @media mq-normal
+            margin-top: 5em
+        @media mq-tablet
+            margin-top: 6em
+        @media mq-mobile
+            margin-top: 6em
+        @media mq-mini
+            margin-top: 6em
 #main
     @media mq-normal
         column(main-column)
