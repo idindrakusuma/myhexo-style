@@ -1,6 +1,6 @@
 #header
     @extend $block-header
-    background: #3498db
+    @extend $gradient-background
     position: fixed
     width: 100%
     z-index: 1000
@@ -188,6 +188,9 @@ $nav-link
     &::-webkit-search-results-decoration
     &::-webkit-search-cancel-button
         -webkit-appearance: none
+
+input.ins-search-input.search-form-input::placeholder
+    color: #eee !important
 
 #main-nav-mobile
     overflow-y: hidden

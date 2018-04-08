@@ -49,7 +49,8 @@
                 .fa
                     margin-right: 5px
             #follow
-                color: white
+                
+                color: color-grey
                 width: 150px
                 height: 40px
                 display: block
@@ -57,11 +58,12 @@
                 line-height: 40px
                 text-align: center
                 margin: 20px auto 10px
-                background: color-link
+                background: color-background
                 border-radius: 20px
                 transition: 0.2s ease
                 &:hover
-                    background: color-link + #111
+                    color: white
+                    @extend $gradient-background
         .article-info
             clearfix()
             padding: 0px
