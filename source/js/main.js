@@ -60,4 +60,23 @@
         });
     }
 
+    // hide top bar on mobilemenu
+    var windowsize = $(window).width();
+    
+    $(window).resize(function() {
+        windowsize = $(window).width();
+    });
+    
+    /* if mode mobile menu */
+    if(windowsize <= 559) {
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 0) {
+                $('.top-logo').slideUp();
+            }
+            else {
+                $('.top-logo').slideDown();
+            }
+        })
+    }
+
 })(jQuery);
